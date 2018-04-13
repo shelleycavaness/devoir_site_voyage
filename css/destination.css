@@ -1,0 +1,12 @@
+#destination{
+  display: flex;
+}
+
+#map{
+  display: flex;
+  padding-right: 10%;
+}
+
+#destinationTitle{
+  text-align: center;
+}
