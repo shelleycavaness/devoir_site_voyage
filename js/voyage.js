@@ -1,6 +1,8 @@
 
 $(document).ready(function(){
   $('.sidenav').sidenav();
+  $('.carousel').carousel();
+
 });
 
 // var elem = document.querySelector('.sidenav');
