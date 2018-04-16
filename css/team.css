@@ -3,9 +3,16 @@
 	flex-direction: column;
 	align-items: center;
 	font-family: arial narrow;
+	margin: 10% 0 10% 0;
 }
 #teamTitle{
-	margin-bottom: 5%;
+	color: #E8C521;
+}
+.trait{
+	width: 30%;
+	height: 1%;
+	border-bottom: 2px solid #024F3E;
+	margin-bottom: 7%;
 }
 #teamBlock{
 	width: 100%;
@@ -23,6 +30,7 @@
 	width: 150px;
 	height: 150px;
 	border-radius: 50% 50%;
+	border: 1px solid #024F3E;
 	overflow: hidden;
 	display: flex;
 	align-items: center;
@@ -32,7 +40,7 @@
 	width: 150px;
 }
 .teamJob{
-	
+	color: #238E50;
 }
 .teamDescription{
 	text-align: justify;
