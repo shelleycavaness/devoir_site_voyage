@@ -1,13 +1,19 @@
 
 $(document).ready(function(){
   $('.sidenav').sidenav();
-  $('.carousel').carousel();
+  //$('.carousel').carousel();
+  $('#slider').cycle({
+    fx: 'scrollHorz',
+timeout:    4000,
+speed:      800,
+next: '#promonav .next',
+pager:	'#promoindex',
+//height: 200,
+pause: 1
+});
+ 
 
 });
-
-// var elem = document.querySelector('.sidenav');
-// var instance = M.Sidenav.init(elem, options);
-      
 
 
         

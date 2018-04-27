@@ -1,8 +1,26 @@
 body {
+<<<<<<< Updated upstream
 	background-color: #F7F7F7;
 	color: #494949;
+=======
+	min-width: 450px;
+
+>>>>>>> Stashed changes
+}
+/***************/
+#slider {
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 
+#slider img {
+    max-width: width 100vw;;
+    height: auto;
+    display:block;
+}
+/***********************/
 .spece p {
 	display: flex;
 	float: right;
@@ -281,4 +299,13 @@ p.footer-gd a:hover {
 }
 .fa-linkedin-in:hover{
 	color: #0682f7;
+}
+
+
+@media screen and (max-width: 800px) {
+	#logo{
+		visibility: hidden
+		
+	}
+  	
 }
