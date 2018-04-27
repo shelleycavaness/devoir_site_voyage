@@ -1,0 +1,47 @@
+#photobresil{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	margin-bottom: 30px;
+}
+#titrepage{
+	color: white;
+	position: relative;
+	text-shadow: 1px 1px 2px grey;
+	margin-left: 50%;
+	margin-top: 20%;
+}
+#content-bresil{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+.content-description-bresil{
+	width: 45%;
+}
+
+#marge{
+	margin-bottom: 300px;
+	display: flex;
+	flex-direction: column;
+}
+#photobresil2{
+	width: 600px;
+	padding-right: 40px;
+}
+
+#day{
+	font-style: italic;
+	font-size: 16px;
+	color: #238E50;
+}
+#infobresil{
+	display: flex;
+	justify-content: space-between;
+}
+#parabresil{
+	text-align: justify;
+}
+#titrebresil{
+	color:#E8C521;
+}
