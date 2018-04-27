@@ -185,8 +185,12 @@ footer{
 	background: #282828;
 	padding: 3em 3em;
 }
+.footer.logo{
+	margin-right: 10px;
+}
 .footer.one {
-    width: 37%;
+	width: 37%;
+	margin-left: 15px;
 }
 .footer.one p{
 	color:#908F8F;
@@ -212,10 +216,10 @@ footer{
 color:#908F8F;	
 display:block;
 }
-.footer.three {
+.footer.four {
     width: 23%;
 }
-.footer.three ul li {
+.footer.four ul li {
     list-style-type: none;
     display: block;
     color: #908F8F;
